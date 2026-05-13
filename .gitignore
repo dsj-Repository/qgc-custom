@@ -1,0 +1,54 @@
+# Build outputs
+build/
+build-*/
+out/
+dist/
+*.exe
+*.dll
+*.pdb
+*.ilk
+
+# Qt
+*.user
+*.user.*
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.qmlc
+*.jsc
+.qmake.cache
+.qmake.stash
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake-build-*/
+CMakeUserPresets.json
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+*~
+
+# Local config (do not commit secrets)
+.env
+.env.local
+local.config.json
